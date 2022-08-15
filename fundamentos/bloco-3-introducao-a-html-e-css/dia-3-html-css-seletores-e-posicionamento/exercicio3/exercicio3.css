@@ -1,0 +1,15 @@
+.text-center {
+  text-align: center;
+}
+
+li:hover {
+ background-color: blanchedalmond;
+}
+
+li:active {
+  font-family:'Courier New', Courier, monospace
+}
+
+.list {
+list-style: none
+}

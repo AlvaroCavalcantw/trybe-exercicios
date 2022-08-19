@@ -145,7 +145,7 @@ lucro = venda - valorCustoTotal;
 console.log(lucro);
 */
 
-let = salarioBruto = 3500;
+let = salarioBruto = 3200;
 
 
 if (salarioBruto > 0 && salarioBruto <= 1556.94){

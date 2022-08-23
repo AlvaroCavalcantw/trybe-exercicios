@@ -114,3 +114,39 @@ let leitor = {
 */ 
 
 
+
+
+/* Exercicio 1 - Funções
+function verificaPalindrome(word) {
+
+let wordReverse = '';
+for (let i = word.length - 1 ; i >= 0 ; i -= 1){
+    wordReverse += word[i];
+}
+
+if (wordReverse === word){
+    return true;
+}
+else { 
+    return false;
+}
+}
+
+console.log(verificaPalindrome('ama'));
+
+*/
+
+
+function menorPosicaoValor (array) {
+let a ;
+let menorValor = [0];
+let count = 0;
+for( let i = 0 ; i < array.length ; i += 1){
+    if (array[i] < menorValor){
+        menorValor = array[i];
+       
+    }   
+}
+return ;
+}
+console.log(menorPosicaoValor([2, 4, 6, 7, 10, 0, -3]));

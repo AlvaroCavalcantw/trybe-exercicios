@@ -75,14 +75,37 @@ const books = [
   // forEach 
 
 
+  // function smallerName() {
+  //   let nameBook;
+  //   books.forEach((book) =>   {
+  //     if(!nameBook || book.name.length < nameBook.length) {
+  //       nameBook = book.name;
+  //     }
+  //   });
+    
+  //   return nameBook;
+  // }
+  // console.log(smallerName());
 
-const each = books.forEach((name, index) => {
-    const nome = books.name; 
-    let count;
-    if (nome[index].length < count.length) {
-        count += nome[index];
-    }
-    return count;
-});
 
-console.log(each);
+
+  /// FIND:
+
+  // const caracthersBook = (book) => book.name.length === 26;
+
+  // const bookCaracters = books.find(caracthersBook);
+  // console.log(bookCaracters);
+
+  /// SORT :
+
+  // const booksOrderedByReleaseYearDesc = (bookA, bookB) => bookB.releaseYear - bookA.releaseYear;
+
+
+  // books.sort(booksOrderedByReleaseYearDesc);
+
+  // console.log(books);
+
+
+  const everyoneWasBornOnSecXX = (book) => (book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
+
+  console.log(books.every(everyoneWasBornOnSecXX));

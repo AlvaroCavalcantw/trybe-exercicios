@@ -63,12 +63,12 @@ const books = [
   
   // Adicione o código do exercício aqui: FIND :
 
-//   const authorBornIn1947 = (age) => age.author.birthYear === 1947;
+  // const authorBornIn1947 = (age) => age.author.birthYear === 1947;
 
 
-//   const a1947 = books.find(authorBornIn1947);
+  // const a1947 = books.find(authorBornIn1947);
 
-//   console.log(a1947);
+  // console.log(a1947);
 
 
 
@@ -89,14 +89,14 @@ const books = [
 
 
 
-  /// FIND:
+  // /// FIND:
 
   // const caracthersBook = (book) => book.name.length === 26;
 
   // const bookCaracters = books.find(caracthersBook);
   // console.log(bookCaracters);
 
-  /// SORT :
+  // / SORT :
 
   // const booksOrderedByReleaseYearDesc = (bookA, bookB) => bookB.releaseYear - bookA.releaseYear;
 
@@ -106,6 +106,6 @@ const books = [
   // console.log(books);
 
 
-  const everyoneWasBornOnSecXX = (book) => (book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
+  // const everyoneWasBornOnSecXX = (book) => (book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
 
-  console.log(books.every(everyoneWasBornOnSecXX));
+  // console.log(books.every(everyoneWasBornOnSecXX));

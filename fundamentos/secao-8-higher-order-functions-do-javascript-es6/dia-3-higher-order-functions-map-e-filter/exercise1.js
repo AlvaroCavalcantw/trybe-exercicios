@@ -107,6 +107,24 @@ const books = [
 
     /// EXERCICIO 4:
 
-    function oldBooksOrdered() {
+    // function oldBooksOrdered(arrayBook) {
+    //     const formatedArray = [];
+    //     const bookYear = (book) => book.releaseYear < 1962;
+    //     const filter = arrayBook.filter(bookYear);
+    //     const booksOrderedByAge = (bookA, bookB) => bookA.releaseYear - bookB.releaseYear;
+    //     const booksOrdered = filter.sort(booksOrderedByAge);
         
-      }
+    //     return booksOrdered;
+    // }
+
+    // console.log(oldBooksOrdered(books));
+
+    /// EXERCICIO 5:
+
+    // function fantasyOrScienceFictionAuthors(arrayBook) {
+    //     return arrayBook.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia')
+    //     .map((e) => e.author.name)
+    //     .sort();
+    // }
+
+    // console.log(fantasyOrScienceFictionAuthors(books));

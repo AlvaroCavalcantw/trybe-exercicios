@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color:black;
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+   flex-grow: 1;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    order: 1;
+  }
+  
+  .menu-container {
+    display: flex;
+    width: 500px;
+    order: 2;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+.header-container nav:nth-child(1){
+    flex-grow : 1;
+    align-self: center;
+}
+.header-container nav:nth-child(2){
+    flex-grow : 1;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 800px;
+    flex-grow: 10;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    margin:15px ;
+    width: 100%;
+    
+    
+  }
+  
+  .card-container img {
+    width: 250px;
+    align-items: flex-start;
+    /* background-color: #5C687C; */
+    border: black solid 1px;
+    display: flex;
+    height: 250px;
+    justify-content: flex-start;
+    margin: 3px;
+    /* flex-basis: 16%; */
+    flex-grow: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
+  }
+  img:hover {
+    transform: scale(1.2); 
+    transition: transform .5s ease;
+
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 350px;
+    align-self: center; 
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 136, 136);
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+  }
+  
+  .main-container h2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 23px;
+    font-size: 20px;
+  }
